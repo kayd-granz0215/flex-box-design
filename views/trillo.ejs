@@ -1,0 +1,214 @@
+
+<% include partials/header %>
+
+    <div class="container">
+        <header class="header">
+            <img src="img/logo.png" alt="trillo logo" class="logo">
+            
+            <form action="#" class="search">
+                <input type="text" class="search__input" placeholder="Search hotels">
+                <button class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+            </form>
+            
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="user-nav__notification">6</span>
+                </div>
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="user-nav__notification">12</span>
+                </div>
+                <div class="user-nav__user">
+                    <img src="img/kaykay.png" alt="My photo" class="user-nav__user-photo">
+                    <span class="user-nav__user-name">Kaykay</span>
+                </div>
+            </nav>
+        </header>
+        
+        
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-home"></use>
+                            </svg>
+                            <span>Hotel</span>
+                        </a>
+                        </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                            </svg>
+                            <span>Flight</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-key"></use>
+                            </svg>
+                            <span>Car Rental</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-map"></use>
+                            </svg>
+                            <span>Tours</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="legal">
+                    &copy; 2017 by trillo. All rights reserved.
+                </div>
+            </nav>
+            
+            
+            <main class="hotel-view">
+                
+                <div class="gallery">
+                    <figure class="gallery__item">
+                        <img src="img/code_pic.1.jpeg" alt="Photo of code 1" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="img/IT_photo_4.jpeg" alt="Photo of code 2" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="img/code_pic.3.jpeg" alt="Photo of code 3" class="gallery__photo">
+                    </figure>
+                </div>
+                
+                <div class="overview">
+                    <h1 class="overview__heading">
+                        Code Break
+                    </h1>
+                    
+                    <div class="overview__stars">
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </div>
+                    
+                    <div class="overview__location">
+                        <svg class="overview__icon-location">
+                            <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                        </svg>
+                        <button class="btn-inline">Fort Worth, TX</button>
+                    </div>
+                    
+                    <div class="overview__rating">
+                        <div class="overview__rating-average">8.6</div>
+                        <div class="overview__rating-count">429 votes</div>
+                    </div>
+                </div>
+                
+                <div class="details">
+                    <div class="description">
+                        <p class="paragraph">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            and scrambled it to make a type specimen book.
+                        </p>
+                        <p class="paragraph">
+                            There are many variations of passages of Lorem Ipsum available,
+                            or randomised words which don't look even slightly believable.
+                        </p>
+                        <ul class="list">
+                            <li class="list__item">Close to the beach</li>
+                            <li class="list__item">Breakfast included</li>
+                            <li class="list__item">Free airport shuttle</li>
+                            <li class="list__item">Free wifi in all rooms</li>
+                            <li class="list__item">Air conditioning and heating</li>
+                            <li class="list__item">Pets allowed</li>
+                            <li class="list__item">We speak all languages</li>
+                            <li class="list__item">Perfect for families</li>
+                        </ul>
+                        <div class="recommend">
+                            <p class="recommend__count">
+                                Lucy and 3 other freinds recommend this hotel.
+                            </p>
+                            <div class="recommend__friends">
+                                <img src="img/kaykay.png" alt="Friend 1" class="recommend__photo">
+                                <img src="img/kaykay_2.jpg" alt="Friend 2" class="recommend__photo">
+                                <img src="img/kaykay.png" alt="Friend 3" class="recommend__photo">
+                                <img src="img/kaykay_2.jpg" alt="Friend 4" class="recommend__photo">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="user-reviews">
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                and scrambled it to make a type specimen book.
+                            </blockquote>
+                            <figcaption class="review__user">
+                                <img src="img/kaykay.png" alt="User 1" class="review__photo"></img>
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Kaykay Adewunmi</p>
+                                    <p class="review__user-date">Oct 25th, 1990</p>
+                                </div>
+                                <div class="review__rating">27</div>
+                            </figcaption>
+                        </figure>
+                        
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                There are many variations of passages of Lorem Ipsum available,
+                                or don't look even slightly believable.
+                            </blockquote>
+                            <figcaption class="review__user">
+                                <img src="img/kaykay_2.jpg" alt="User 2" class="review__photo"></img>
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Kenny Granz</p>
+                                    <p class="review__user-date">Jan 5th, 2018</p>
+                                </div>
+                                <div class="review__rating">5.0</div>
+                            </figcaption>
+                        </figure>
+                        
+                        <button class="btn-inline">Show all <span>&rarr;</span></button>
+                    </div>
+                </div>
+                    
+                <div class="cta">
+                    <h2 class="cta__book-now">
+                        Good news! We have 4 free rooms for your selected dates!
+                    </h2>
+                    <button class="btn">
+                        <span class="btn__visible">Book now</span>
+                        <span class="btn__invisible">Only 4 rooms left</span>
+                    </button>
+                </div>
+  
+            </main>
+        </div>
+    </div>       
+
+
+<% include partials/footer %>
